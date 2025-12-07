@@ -56,6 +56,7 @@ jobs:
             CONFIG_REPRODUCIBLE_DEBUG_INFO=y
 
             CONFIG_PACKAGE_luci=y
+            CONFIG_PACKAGE_wpad-mbedtls=y
           EOF
           make defconfig
 
